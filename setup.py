@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='zenx',  
-    version='1.0.4',
+    version='1.0.5',
     description='ZenX: Text data Optimizer',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
@@ -11,6 +11,7 @@ setup(
     author_email='rishichaitanya888@gmail.com',
     license="Apache-2.0",
     packages=find_packages(),
+    url='https://github.com/Rishichaitanya-Nalluri/ZenX',
     install_requires=[     
         'tensorflow>=2.10.0',
         'keras>=2.10.0',

@@ -1,7 +1,8 @@
 Metadata-Version: 2.1
 Name: zenx
-Version: 1.0.4
+Version: 1.0.5
 Summary: ZenX: Text data Optimizer
+Home-page: https://github.com/Rishichaitanya-Nalluri/ZenX
 Author: Rishi Chaitanya Sri Prasad Nalluri
 Author-email: rishichaitanya888@gmail.com
 License: Apache-2.0
