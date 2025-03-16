@@ -89,7 +89,7 @@ class ZenX(optimizer.Optimizer):
         self.assign_sub(
             variable,
             ops.multiply(
-                ops.divide(lr, ops.add(ops.log(ops.add(accumulator, 1)), self.epsilon)),  
+                ops.divide(lr, ops.add(ops.log(ops.add(accumulator, 1)), 1)),  
                 ops.divide(m, ops.add(ops.sqrt(v), self.epsilon))
             )
             ),
